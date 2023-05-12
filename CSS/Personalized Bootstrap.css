@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+.navbar-light {
+ 	background-color: #C53D3F !important;
+	font-size:16px;
+}
+.navbar-brand {
+	color: azure !important;
+	font-size: 30px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
+.btn-outline-success {
+	background-color: #C53D3F ;
+	border-color: white;
+	color: #fff;
+	margin-right: 20px;
+	
+}
+.btn-outline-success:hover {
+  color: #C53D3F;
+  background-color: #fff;
+  border-color: #fff;
+  
+}
+
+.custom-navbar {
+  margin-right: auto;
+  margin-left: 0;
+}
+.custom-navbar .nav-link {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar {
+  border-radius: 10px;
+	margin-top: 20px;
+}

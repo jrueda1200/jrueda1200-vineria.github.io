@@ -1,0 +1,263 @@
+@charset "utf-8";
+/* CSS Document */
+
+.background-image {
+  background-image: url("../IMG/About.jpg");
+  background-size: cover;
+	height: 90vh;
+	padding: 15% 0 10%;
+	text-align: center;
+	position: relative;
+	border-radius: 20px;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.title-container {
+  position: absolute;
+  top: 14%;
+  left: 0;
+  margin: 40px;
+}
+
+.title {
+  color: #fff;
+  font-size: 3rem;
+}
+
+.newsletter-form {
+  position: absolute;
+  bottom: 2%;
+  right: 2%;
+  background-color: white;
+  padding: 2%;
+  border-radius: 20px;
+	width: 30%;
+	height: 30%;
+	line-height: 1.5;	
+}
+
+.sticky{
+	position: fixed;
+	background-color: #fff;
+}
+
+
+
+.btn .btn-primary{
+	padding-top: 20px;
+}
+.form-control{
+	padding: 2%;
+}
+.newsletter-form h2 {
+  margin-bottom: 1%;
+}
+
+.newsletter-form label  {
+  margin-bottom: 1%;
+}
+
+.newsletter-form input[type="email"] {
+  margin-bottom: 5%;
+}
+
+.newsletter-form .btn {
+  	background-color: darkseagreen;
+  	color: white;
+	outline: none;
+	height: 30%;
+  	width: 60%;
+  	font-size: 18px;
+}
+
+.gray-section {
+  	background-color: #f2f2f2;
+  	padding: 50px 0;
+	border-radius: 20px;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.gray-section h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.gray-section p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.gray-section img {
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .gray-section h2 {
+    font-size: 24px;
+  }
+	.newsletter-form {
+		width: auto;
+		height: auto;
+		align-content: center;
+	}
+	
+	
+}
+  .gray-section p {
+    font-size: 14px;
+  }
+
+
+.gray-section {
+  background-color: #f2f2f2;
+}
+
+.rounded {
+  border-radius: 20px;
+}
+
+.testimonio-usuario h4 {
+  text-align: center;
+	padding-top: 20px;
+}
+
+.testimonio-usuario p {
+  text-align: center;
+	padding: 20px;
+}
+
+.titulo {
+  text-align: center;
+	padding: 20px;
+}
+
+.testimonio-usuario .position-relative {
+  text-align: center;
+}
+
+.row col-lg-4 col-sm-12{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.products h2{
+	text-align: center;
+}
+
+.products1-col{
+	flex-basis: 31%;
+	text-align: left;
+	margin-bottom: 5%;
+	margin-top: 5%;
+}
+
+.products{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+}
+
+.products2-col img{
+	width: 100%;
+}
+
+.products2-col{
+	flex-basis: 31%;
+	text-align: left;
+	margin-bottom: 5%;
+	margin-top: 5%;
+}
+
+.products2-col img {
+	width: 100%;
+}
+
+.products3-col img{
+	width: 100%;
+}
+
+.products3-col{
+	flex-basis: 31%;
+	text-align: left;
+	margin-bottom: 5%;
+	margin-top: 5%;
+}
+
+.products3-col img {
+	width: 100%;
+}
+
+.products4-col img{
+	width: 100%;
+}
+
+.products4-col{
+	flex-basis: 31%;
+	text-align: left;
+	margin-bottom: 5%;
+	margin-top: 5%;
+}
+
+.products4-col img {
+	width: 100%;
+}
+
+.products5-col img{
+	width: 100%;
+}
+
+.products5-col{
+	flex-basis: 31%;
+	text-align: left;
+	margin-bottom: 5%;
+	margin-top: 5%;
+}
+
+.products5-col img {
+	width: 100%;
+}
+
+.products6-col img{
+	width: 100%;
+}
+
+.products6-col{
+	flex-basis: 31%;
+	text-align: left;
+	margin-bottom: 5%;
+	margin-top: 5%;
+}
+
+.products6-col img {
+	width: 100%;
+}
+#footer{
+	padding: 40px 0;
+	text-align: center;
+}
+#footer i{
+	background-color: #B5B5B5;
+	color: #fff;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 35px;
+	text-align: center;
+	font-size: 20px;
+	padding: 0 0 5px;
+}
+#footer h4{
+	text-align: center;
+	font-size: 20px;
+	font-weight: 200;
+	color: #B5B5B5;
+	padding: 5px 0 0;
+}
